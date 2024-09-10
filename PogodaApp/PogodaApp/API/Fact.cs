@@ -1,0 +1,30 @@
+﻿namespace PogodaApp.API
+{
+    public class Fact
+    {
+        public double obs_time { get; set; }
+        public double uptime { get; set; }
+        public double temp { get; set; }
+        public double feels_like { get; set; }
+        public string icon { get; set; }
+        public string condition { get; set; }
+        public double cloudness { get; set; }
+        public double prec_type { get; set; }
+        public double prec_prob { get; set; }
+        public double prec_strength { get; set; }
+        public bool is_thunder { get; set; }
+        public double wind_speed { get; set; }
+        public string wind_dir { get; set; }
+        public double pressure_mm { get; set; }
+        public double pressure_pa { get; set; }
+        public double humidity { get; set; }
+        public string daytime { get; set; }
+        public bool polar { get; set; }
+        public string season { get; set; }
+        public string source { get; set; }
+        public double soil_moisture { get; set; }
+        public double soil_temp { get; set; }
+        public double uv_index { get; set; }
+        public double wind_gust { get; set; }
+    }
+}
